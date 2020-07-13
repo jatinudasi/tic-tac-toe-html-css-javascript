@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic tac Toe</title>
+    <link rel="stylesheet" href="mycss.css">
+</head>
+<body>
+    
+
+    <h1>TIC TAC TOE</h1>
+    <button id="re" onclick="reset()" >RESET</button>
+     <p id="pp"> </p>
+     <p id="p1"> score Player-X: <span id="s1">0</span></p>
+     <p id="p2"> score Player-O: <span id="s2">0</span></p>
+
+    <table>
+         <tbody>
+            <tr>
+                <td><button id ="one" class="bb" onclick="myChange(this)"></button></td>
+                <td><button id ="two" class="bb" onclick="myChange(this)"></button></td>
+                <td><button id ="three"class="bb"onclick="myChange(this)"></button></td>
+
+            </tr>
+            <tr>
+                <td><button id="four" class="bb"onclick="myChange(this)"></button></td>
+                <td><button id="five" class="bb"onclick="myChange(this)"></button></td>
+                <td><button id="six" class="bb"onclick="myChange(this)"></button></td>
+
+            </tr>
+            <tr>
+                <td><button id="seven"  class="bb" onclick="myChange(this)"></button></td>
+                <td><button id="eight" class="bb" onclick="myChange(this)"></button></td>
+                <td><button id="nine" class="bb" onclick="myChange(this)"></button></td>
+
+            </tr>
+
+
+        </tbody>
+
+
+    </table>
+   
+    <script src="mytr.js" type="text/javascript"></script>
+</body>
+</html>
